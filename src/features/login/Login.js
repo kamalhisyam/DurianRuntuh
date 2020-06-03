@@ -1,7 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import googleButtonImage from './google-btn/btn_google_light_normal_ios.svg';
-import SvgIcon from '@material-ui/core/SvgIcon';
 
 export function GoogleLogin() {
     return (
