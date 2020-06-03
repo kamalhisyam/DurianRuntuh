@@ -12,6 +12,7 @@ window.fbAsyncInit = function() {
 };
 
 
+// eslint-disable-next-line no-undef
 FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
@@ -25,6 +26,7 @@ FB.getLoginStatus(function(response) {
  }(document, 'script', 'facebook-jssdk'));
 
  function statusChangeCallback(response){
+     // eslint-disable-next-line no-cond-assign
      if(response.status="connected"){
          console.log("Logged in and authenticated");
      }

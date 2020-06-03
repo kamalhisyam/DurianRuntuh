@@ -6,7 +6,7 @@ export function GoogleLogin() {
         <div>
             <div>
                 <Button variant="contained"
-                        
+                        disableElevation
                 >
                 Sign in with Google
                 </Button>   
