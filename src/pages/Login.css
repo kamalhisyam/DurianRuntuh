@@ -1,8 +1,8 @@
-.App {
+.Login {
   text-align: center;
 }
 
-.App-logo {
+.Login-logo {
   height: 10vmin;
   pointer-events: none;
 }
@@ -14,7 +14,7 @@
   }
 }
 
-.App-header {
+.Login-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;

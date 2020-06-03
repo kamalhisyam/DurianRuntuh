@@ -1,20 +1,18 @@
 import React from 'react';
-import shoppingCart from './shopping-cart.svg';
-import './App.css';
-import { GoogleLogin } from './features/login/Login'
-import SignIn from './features/login/SignIn';
-import { Router, Route } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import history from "./history";
+
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={shoppingCart} className="App-logo" alt="logo" />
-    //     <GoogleLogin/>
-    //     <SignIn/>
-    //   </header>
-    // </div>
-    
+    <Router history={history}>
+      <Switch/>
+        <Route path='/Login' component={Login}/>
+        <Route exact path='/' component={Home}/>
+      <Switch/>
+    </Router>
   );
 }
 

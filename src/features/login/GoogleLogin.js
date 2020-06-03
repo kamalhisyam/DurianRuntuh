@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-export function GoogleLogin() {
+export default function GoogleLogin() {
     return (
         <div>
             <div>
