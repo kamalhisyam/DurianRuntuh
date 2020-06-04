@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import history from "./history";
 
 
-function App() {
+export default function App() {
   return (
     <Router history={history}>
       <Switch/>
@@ -16,4 +16,3 @@ function App() {
   );
 }
 
-export default App;
