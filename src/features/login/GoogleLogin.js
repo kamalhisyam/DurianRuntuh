@@ -6,12 +6,22 @@ export default function GoogleLogin() {
         <div>
             <div>
                 <Button variant="contained"
-                        disableElevation
+                    disableElevation
                 >
-                Sign in with Google
-                </Button>   
+                    Sign in with Google
+                </Button>
             </div>
-            <div class="fb-login-button" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></div>   
+            <div class="fb-login-button"
+                data-size="large"
+                data-button-type="login_with"
+                data-layout="default"
+                data-auto-logout-link="false"
+                data-use-continue-as="false"
+                data-width=""
+                onClick="window.location='/auth/facebook';"
+            >
+
+            </div>
         </div>
 
 
