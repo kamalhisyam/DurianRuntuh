@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 window.fbAsyncInit = function() {
   FB.init({
